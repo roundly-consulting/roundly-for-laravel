@@ -7,7 +7,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
 - Updated: 2026-10-02
-- Packages: 50
+- Packages: 51
 - Requirements (every package): PHP ^8.4, Laravel 12 or 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -220,6 +220,13 @@ Attaches typed, validated contacts (emails, phones, addresses, URLs, social hand
 - install: `composer require roundly-consulting/contacts-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/contacts-for-laravel
 - repo: https://github.com/roundly-consulting/contacts-for-laravel
+
+### lifecycle-for-laravel
+Status lifecycles for Eloquent models: guarded named transitions, race-free quotas and limits, expiry and scheduled transitions, rollbacks and an append-only history.
+- tags: `state-machine` `status` `workflow` `transitions` `expiry` `rollback` `audit-trail` `quota`
+- install: `composer require roundly-consulting/lifecycle-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/lifecycle-for-laravel
+- repo: https://github.com/roundly-consulting/lifecycle-for-laravel
 
 ### onboarding-for-laravel
 Defines multiple onboarding flows of ordered steps whose completion is derived from model data via closures; returns next step, progress percentage and JSON, plus route-enforcing middleware.
