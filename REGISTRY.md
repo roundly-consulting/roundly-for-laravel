@@ -229,7 +229,7 @@ Attaches typed, validated contacts (emails, phones, addresses, URLs, social hand
 - repo: https://github.com/roundly-consulting/contacts-for-laravel
 
 ### lifecycle-for-laravel
-Status lifecycles for Eloquent models: guarded named transitions, race-free quotas and limits, expiry and scheduled transitions, rollbacks and an append-only history.
+Status lifecycles for any Eloquent model: guarded named transitions, race-free quotas and limits, expiry and scheduled transitions, rollbacks, an append-only history and a make:lifecycle generator.
 - tags: `state-machine` `status` `workflow` `transitions` `expiry` `rollback` `audit-trail` `quota`
 - install: `composer require roundly-consulting/lifecycle-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/lifecycle-for-laravel
