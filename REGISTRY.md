@@ -6,8 +6,8 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 **Full documentation for every package is on our website:**
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
-- Updated: 2026-10-02
-- Packages: 51
+- Updated: 2026-10-03
+- Packages: 52
 - Requirements (every package): PHP ^8.4, Laravel 12 or 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -34,8 +34,8 @@ Headless multi-guard auth: password, magic-link, email OTP and passkey login, 2F
 - repo: https://github.com/roundly-consulting/auth-for-laravel
 
 ### crypto-for-laravel
-Crypto primitives: JWS/JOSE signing (HS/RS/ES/EdDSA), JWK thumbprints, X.509 and DER parsing, TOTP/HOTP, WebAuthn COSE verification, HMAC webhooks, secure random tokens, base64url/base32 codecs.
-- tags: `cryptography` `jws` `jose` `totp` `hmac` `webauthn` `x509` `base64url`
+Crypto primitives: JWS/JOSE signing (HS/RS/ES/EdDSA), JWK thumbprints, X.509/DER parsing, TOTP/HOTP, WebAuthn COSE verification, HMAC, AES-256-GCM encryption, random tokens, base64url/base32 codecs.
+- tags: `cryptography` `jws` `jose` `totp` `hmac` `webauthn` `x509` `encryption`
 - install: `composer require roundly-consulting/crypto-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/crypto-for-laravel
 - repo: https://github.com/roundly-consulting/crypto-for-laravel
@@ -67,6 +67,13 @@ Opaque rotating refresh tokens and device sessions for any authenticatable model
 - install: `composer require roundly-consulting/refresh-tokens-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/refresh-tokens-for-laravel
 - repo: https://github.com/roundly-consulting/refresh-tokens-for-laravel
+
+### sentinel-for-laravel
+Tamper-evident seals on Eloquent models with an append-only ledger and external anchors, key rotation and import, idempotency keys, single-use nonces and URLs, and RFC 9421 HTTP message signatures.
+- tags: `integrity` `tamper-detection` `audit` `idempotency` `nonce` `replay-protection` `http-signatures` `hmac`
+- install: `composer require roundly-consulting/sentinel-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/sentinel-for-laravel
+- repo: https://github.com/roundly-consulting/sentinel-for-laravel
 
 ### two-factor-for-laravel
 TOTP (RFC 6238) two-factor authentication for user models: enrolment with otpauth URI, encrypted secrets, single-use hashed recovery codes, replay protection and attempt rate limiting.
