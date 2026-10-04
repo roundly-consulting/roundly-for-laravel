@@ -43,6 +43,47 @@ customers earn cashback credits in their own currency and log in with magic link
 network runs promo campaigns to all members.
 ```
 
+## Use it as a skill
+
+The registry also ships as an [Agent Skill](https://agentskills.io) (`skills/roundly-for-laravel/`),
+so your coding agent picks Roundly packages on its own, without the prompt above.
+
+### Install with `npx skills`
+
+The [skills CLI](https://github.com/vercel-labs/skills) installs it for Claude Code, Cursor, Codex and
+the other agents it supports. Run it in your Laravel project:
+
+```bash
+npx skills add roundly-consulting/roundly-for-laravel
+```
+
+| To | Run |
+|---|---|
+| see what it installs, without installing | `npx skills add roundly-consulting/roundly-for-laravel --list` |
+| install for chosen agents only | `npx skills add roundly-consulting/roundly-for-laravel -a claude-code -a cursor -a codex` |
+| install for all your projects (user level) | `npx skills add roundly-consulting/roundly-for-laravel -g` |
+| update to the latest version | `npx skills update roundly-for-laravel` |
+| remove it | `npx skills remove roundly-for-laravel` |
+
+It writes `.agents/skills/roundly-for-laravel/` (`SKILL.md` plus a bundled `references/REGISTRY.md`),
+links it into each agent's skills folder (for example `.claude/skills/` for Claude Code) and records it
+in `skills-lock.json`. Commit those so your teammates' agents get the skill too, or install with `-g`
+to keep it out of the repository.
+
+### Install as a Claude Code plugin
+
+```text
+/plugin marketplace add roundly-consulting/roundly-for-laravel
+/plugin install roundly-for-laravel@roundly-consulting
+```
+
+### What the skill does
+
+When a task needs a feature a Roundly package covers, the agent reads `REGISTRY.md` (the latest copy
+from GitHub, or the bundled one when it is offline), picks the packages, installs them with
+`composer require` and reads each package's docs on roundly-consulting.com before writing code
+against it. The skill ships no scripts and runs nothing else.
+
 <!-- roundly-support:start -->
 ## Support our work
 
