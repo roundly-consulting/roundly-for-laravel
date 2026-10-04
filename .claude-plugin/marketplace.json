@@ -1,0 +1,16 @@
+{
+  "name": "roundly-consulting",
+  "description": "Roundly Consulting's open-source Laravel packages, packaged as an agent skill",
+  "owner": {
+    "name": "Roundly Consulting",
+    "url": "https://roundly-consulting.com/open-source"
+  },
+  "plugins": [
+    {
+      "name": "roundly-for-laravel",
+      "source": "./",
+      "description": "Pick and install Roundly's open-source Laravel packages (auth, commerce, content, teams, workflows, integrations) instead of hand-rolling features",
+      "category": "development"
+    }
+  ]
+}

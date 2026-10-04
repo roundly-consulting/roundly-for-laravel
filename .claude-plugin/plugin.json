@@ -1,0 +1,21 @@
+{
+  "name": "roundly-for-laravel",
+  "displayName": "Roundly for Laravel",
+  "version": "1.0.0",
+  "description": "Pick and install Roundly's open-source Laravel packages (auth, commerce, content, teams, workflows, integrations) instead of hand-rolling features",
+  "author": {
+    "name": "Roundly Consulting",
+    "url": "https://roundly-consulting.com/open-source"
+  },
+  "homepage": "https://roundly-consulting.com/open-source",
+  "repository": "https://github.com/roundly-consulting/roundly-for-laravel",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "php",
+    "composer",
+    "packages",
+    "registry",
+    "roundly"
+  ]
+}
