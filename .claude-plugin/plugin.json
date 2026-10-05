@@ -10,6 +10,7 @@
   "homepage": "https://roundly-consulting.com/open-source",
   "repository": "https://github.com/roundly-consulting/roundly-for-laravel",
   "license": "MIT",
+  "icon": "./art/logo.png",
   "keywords": [
     "laravel",
     "php",
