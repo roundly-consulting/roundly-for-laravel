@@ -352,8 +352,8 @@ Resolves location from IP, coordinates or address via IPinfo, IP2Location, Googl
 - repo: https://github.com/roundly-consulting/geolocation-for-laravel
 
 ### git-for-laravel
-One API over GitHub, GitLab and Bitbucket: repos, commits, pull requests, issues, releases, file contents and diffs; write operations, signed webhooks as typed events, authenticated clone URLs.
-- tags: `git` `github` `gitlab` `bitbucket` `pull-requests` `webhooks` `repositories` `vcs`
+One API over GitHub, GitLab and Bitbucket: repos, commits, pull requests, issues, releases, files and diffs; GitHub Actions runs, write operations, signed webhooks as typed events, clone URLs.
+- tags: `git` `github` `gitlab` `bitbucket` `pull-requests` `webhooks` `repositories` `github-actions`
 - install: `composer require roundly-consulting/git-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/git-for-laravel
 - repo: https://github.com/roundly-consulting/git-for-laravel
