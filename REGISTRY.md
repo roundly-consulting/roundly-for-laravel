@@ -6,7 +6,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 **Full documentation for every package is on our website:**
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
-- Updated: 2026-10-03
+- Updated: 2026-10-10
 - Packages: 52
 - Requirements (every package): PHP ^8.4, Laravel 12 or 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
@@ -69,7 +69,7 @@ Opaque rotating refresh tokens and device sessions for any authenticatable model
 - repo: https://github.com/roundly-consulting/refresh-tokens-for-laravel
 
 ### sentinel-for-laravel
-Tamper-evident seals on Eloquent models with an append-only ledger and external anchors, key rotation and import, idempotency keys, single-use nonces and URLs, and RFC 9421 HTTP message signatures.
+Tamper-evident Eloquent seals, an anchored append-only ledger, rotating key rings with HMAC sign/verify of raw messages, idempotency keys, single-use nonces and URLs, and RFC 9421 HTTP signatures.
 - tags: `integrity` `tamper-detection` `audit` `idempotency` `nonce` `replay-protection` `http-signatures` `hmac`
 - install: `composer require roundly-consulting/sentinel-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/sentinel-for-laravel
