@@ -331,8 +331,8 @@ Translatable Eloquent attributes stored as json/jsonb locale maps with a configu
 ## Integrations & infrastructure
 
 ### alerts-for-laravel
-Runs cron-scheduled health checks per notifiable model, opens alerts and sends throttled notifications on failure, with escalation, flap detection, maintenance windows, uptime and latency history.
-- tags: `alerts` `health-checks` `monitoring` `uptime` `notifications` `escalation` `incidents`
+Runs cron-scheduled health checks per notifiable model, opens alerts and throttled notifications on failure, with escalation, flap detection, silences, a windowed status report, uptime and p95.
+- tags: `alerts` `health-checks` `monitoring` `uptime` `notifications` `escalation` `incidents` `silences`
 - install: `composer require roundly-consulting/alerts-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/alerts-for-laravel
 - repo: https://github.com/roundly-consulting/alerts-for-laravel
