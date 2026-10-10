@@ -373,7 +373,7 @@ Throttles outgoing HTTP client requests per second/minute/hour/day with named pr
 - repo: https://github.com/roundly-consulting/http-client-rate-limits-for-laravel
 
 ### kubernetes-api-for-laravel
-Fluent Eloquent-style Kubernetes API client for multiple clusters: pods, deployments, custom resources and Traefik CRDs; label selectors, patch/scale/rollout, watch, pod logs and exec.
+Fluent Eloquent-style Kubernetes API client for multiple clusters: pods, deployments, custom resources and Traefik CRDs; selectors, patch/scale/rollout, watch, logs, exec and service-account tokens.
 - tags: `kubernetes` `k8s` `kubectl` `cluster` `devops` `traefik` `crd` `pods`
 - install: `composer require roundly-consulting/kubernetes-api-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/kubernetes-api-for-laravel
