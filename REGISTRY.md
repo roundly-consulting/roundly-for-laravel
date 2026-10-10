@@ -301,8 +301,8 @@ Generates SVG QR codes (ISO/IEC 18004) with typed payloads: URL, vCard, Wi-Fi, S
 - repo: https://github.com/roundly-consulting/qr-for-laravel
 
 ### query-builder-for-laravel
-Allow-list-driven filtering, sorting and pagination of Eloquent queries from API request query strings (filter[], sort, page, per_page); any parameter not explicitly allowed is rejected.
-- tags: `query-builder` `api-filtering` `sorting` `pagination` `rest-api` `query-string` `filters`
+Allow-list-driven filtering, sorting and pagination of Eloquent queries from API query strings (filter[], sort, page, per_page) plus multi-column search; unlisted parameters are rejected.
+- tags: `query-builder` `api-filtering` `sorting` `pagination` `rest-api` `query-string` `filters` `search`
 - install: `composer require roundly-consulting/query-builder-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/query-builder-for-laravel
 - repo: https://github.com/roundly-consulting/query-builder-for-laravel
