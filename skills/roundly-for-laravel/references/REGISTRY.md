@@ -266,8 +266,8 @@ Attaches typed dynamic key/value attributes to any Eloquent model without schema
 - repo: https://github.com/roundly-consulting/attributes-for-laravel
 
 ### enums-for-laravel
-Helpers trait for PHP enums: translated readable labels, names/values/labels arrays, select options, case lookups, a validation rule, random case, equality checks and conditional callbacks.
-- tags: `enums` `php-enums` `enum-labels` `select-options` `validation` `helpers`
+Helpers trait for PHP enums: translation-file labels, colour presentation, names/values/labels arrays, select options, case lookups, a validation rule, random case and equality checks.
+- tags: `enums` `php-enums` `enum-labels` `select-options` `validation` `helpers` `translations` `presentation`
 - install: `composer require roundly-consulting/enums-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/enums-for-laravel
 - repo: https://github.com/roundly-consulting/enums-for-laravel
