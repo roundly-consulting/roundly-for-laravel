@@ -34,8 +34,8 @@ Headless multi-guard auth: password, magic-link, email OTP and passkey login, 2F
 - repo: https://github.com/roundly-consulting/auth-for-laravel
 
 ### crypto-for-laravel
-Crypto primitives: JWS/JOSE signing (HS/RS/ES/EdDSA), JWK thumbprints, X.509/DER parsing, TOTP/HOTP, WebAuthn COSE verification, HMAC, AES-256-GCM encryption, random tokens, base64url/base32 codecs.
-- tags: `cryptography` `jws` `jose` `totp` `hmac` `webauthn` `x509` `encryption`
+Crypto primitives: JWS/JOSE signing (HS/RS/ES/EdDSA), JWK thumbprints, X.509/DER parsing, TOTP/HOTP, WebAuthn COSE verification, HMAC, HKDF, AES-256-GCM, random tokens, base64url/base32.
+- tags: `cryptography` `jws` `jose` `totp` `hmac` `hkdf` `webauthn` `x509` `encryption`
 - install: `composer require roundly-consulting/crypto-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/crypto-for-laravel
 - repo: https://github.com/roundly-consulting/crypto-for-laravel
