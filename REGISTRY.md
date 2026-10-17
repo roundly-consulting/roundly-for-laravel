@@ -157,8 +157,8 @@ Polymorphic likes and typed reactions any model can give or receive, with toggle
 - repo: https://github.com/roundly-consulting/likes-for-laravel
 
 ### media-library-for-laravel
-Attaches files to Eloquent models in named buckets or as global media on any disk, with image variants, temporary private URLs, dedup, ThumbHash/Blurhash placeholders, srcset and CDN URLs.
-- tags: `media` `file-uploads` `attachments` `images` `storage` `thumbnails` `responsive-images`
+Attaches files to Eloquent models in named buckets or as global media on any disk, with image variants, private and S3-presigned URLs, dedup, placeholders, srcset, CDN URLs and SSRF-safe URL fetching.
+- tags: `media` `file-uploads` `attachments` `images` `storage` `thumbnails` `responsive-images` `ssrf`
 - install: `composer require roundly-consulting/media-library-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/media-library-for-laravel
 - repo: https://github.com/roundly-consulting/media-library-for-laravel
