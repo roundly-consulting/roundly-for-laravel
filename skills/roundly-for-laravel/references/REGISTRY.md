@@ -256,6 +256,13 @@ Teams for any Eloquent model: memberships with roles and permissions, per-team r
 - docs: https://roundly-consulting.com/open-source/docs/teams-for-laravel
 - repo: https://github.com/roundly-consulting/teams-for-laravel
 
+### tickets-for-laravel
+Headless helpdesk: gap-free ticket references, swappable statuses, replies and internal notes, assignment, priorities, due dates, custom fields, guest links, merging and an opt-in JSON API.
+- tags: `tickets` `helpdesk` `support-desk` `service-desk` `ticketing` `customer-support` `issue-tracker`
+- install: `composer require roundly-consulting/tickets-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/tickets-for-laravel
+- repo: https://github.com/roundly-consulting/tickets-for-laravel
+
 ## Data, modeling & analytics
 
 ### attributes-for-laravel
