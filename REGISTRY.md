@@ -345,7 +345,7 @@ Runs cron-scheduled health checks per notifiable model, opens alerts and throttl
 - repo: https://github.com/roundly-consulting/alerts-for-laravel
 
 ### certificates-for-laravel
-Issues, renews, revokes and tracks TLS certificates via ACME/Let's Encrypt, Kubernetes cert-manager or filesystem providers, with SAN/wildcard support, a registry model and expiry alerts.
+Issues, renews and tracks TLS certificates via ACME/Let's Encrypt, Kubernetes cert-manager or filesystem providers, with SAN/wildcard support, a registry model that records revocations, and expiry alerts.
 - tags: `tls` `ssl` `certificates` `lets-encrypt` `acme` `cert-manager` `https` `certificate-renewal`
 - install: `composer require roundly-consulting/certificates-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/certificates-for-laravel
