@@ -6,8 +6,8 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 **Full documentation for every package is on our website:**
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
-- Updated: 2026-10-10
-- Packages: 52
+- Updated: 2026-10-20
+- Packages: 54
 - Requirements (every package): PHP ^8.4, Laravel 12 or 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -320,6 +320,13 @@ Slugs for Eloquent models: single or per-locale (json/jsonb) slug columns, scope
 - install: `composer require roundly-consulting/sluggable-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/sluggable-for-laravel
 - repo: https://github.com/roundly-consulting/sluggable-for-laravel
+
+### tags-for-laravel
+Typed tags and category trees on any Eloquent model: single- or multi-select, curated or free-form, tenant-scoped, translatable with per-locale slugs, autocomplete, usage counts and query scopes.
+- tags: `tags` `tagging` `taxonomy` `categories` `labels` `category-tree` `multi-tenant` `autocomplete`
+- install: `composer require roundly-consulting/tags-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/tags-for-laravel
+- repo: https://github.com/roundly-consulting/tags-for-laravel
 
 ### trading-analytics-for-laravel
 Computes trading performance metrics from trades or DB rows with bcmath precision: P&L, returns, win rate, streaks, drawdown, profit factor, expectancy, Sharpe/Sortino, per pair and currency.
