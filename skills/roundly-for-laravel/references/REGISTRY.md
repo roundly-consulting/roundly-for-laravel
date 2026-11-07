@@ -8,7 +8,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 
 - Updated: 2026-11-07
 - Packages: 55
-- Requirements (every package): PHP ^8.4, Laravel 12 or 13
+- Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
 ## Instructions for agents

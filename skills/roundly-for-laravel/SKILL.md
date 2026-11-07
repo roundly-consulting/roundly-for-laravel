@@ -2,10 +2,10 @@
 name: roundly-for-laravel
 description: "Pick and install Roundly's open-source Laravel packages (auth, commerce, content, teams, workflows, integrations) instead of hand-rolling features. Use when building or extending a Laravel app that needs login, 2FA, passkeys, JWT, roles and permissions, shops, purchases, credits, coupons, posts, comments, media, messaging, forms, teams, approvals, appointments, onboarding, metrics, translations, or third-party integrations."
 license: MIT
-compatibility: Laravel 12 or 13 on PHP 8.4+, with Composer. Reads package docs from roundly-consulting.com.
+compatibility: Laravel 13 on PHP 8.4+, with Composer. Reads package docs from roundly-consulting.com.
 metadata:
   author: Roundly Consulting
-  version: "1.0.0"
+  version: "1.0.1"
   homepage: https://roundly-consulting.com/open-source
 ---
 
@@ -41,5 +41,5 @@ docs link and a repo link.
 
 ## Requirements
 
-Every package needs PHP ^8.4 and Laravel 12 or 13. Their runtime dependencies are only Laravel,
+Every package needs PHP ^8.4 and Laravel 13. Their runtime dependencies are only Laravel,
 Symfony and other Roundly packages. All are MIT-licensed.
