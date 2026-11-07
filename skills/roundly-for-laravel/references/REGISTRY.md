@@ -6,7 +6,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 **Full documentation for every package is on our website:**
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
-- Updated: 2026-10-20
+- Updated: 2026-11-07
 - Packages: 55
 - Requirements (every package): PHP ^8.4, Laravel 12 or 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
@@ -157,8 +157,8 @@ Polymorphic likes and typed reactions any model can give or receive, with toggle
 - repo: https://github.com/roundly-consulting/likes-for-laravel
 
 ### media-library-for-laravel
-Attaches files to Eloquent models in named buckets or as global media on any disk, with image variants, private and S3-presigned URLs, dedup, placeholders, srcset, CDN URLs and SSRF-safe URL fetching.
-- tags: `media` `file-uploads` `attachments` `images` `storage` `thumbnails` `responsive-images` `ssrf`
+Attaches files to Eloquent models in named buckets or as global media on any disk: image variants, private/S3-presigned URLs, dedup, storage metering, placeholders, srcset, CDN URLs, SSRF guard.
+- tags: `media` `file-uploads` `attachments` `images` `storage-quotas` `thumbnails` `responsive-images` `ssrf`
 - install: `composer require roundly-consulting/media-library-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/media-library-for-laravel
 - repo: https://github.com/roundly-consulting/media-library-for-laravel
