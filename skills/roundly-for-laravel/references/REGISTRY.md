@@ -113,8 +113,8 @@ Immutable arbitrary-precision Money/Currency value objects (ISO 4217 + custom) w
 - repo: https://github.com/roundly-consulting/money-for-laravel
 
 ### purchases-for-laravel
-Unified purchases and subscriptions for Apple App Store, Google Play and Stripe: native verification, webhook processing, purchase/subscription models, refunds, chargebacks and lifecycle events.
-- tags: `in-app-purchases` `subscriptions` `payments` `app-store` `google-play` `stripe` `receipt-validation` `iap`
+Apple, Google Play and Stripe purchases and subscriptions: native webhook verification, models, refunds, lifecycle events, plus Stripe billing — customers, per-seat and metered plans, portal.
+- tags: `in-app-purchases` `subscriptions` `payments` `stripe-billing` `app-store` `google-play` `usage-based-billing` `iap`
 - install: `composer require roundly-consulting/purchases-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/purchases-for-laravel
 - repo: https://github.com/roundly-consulting/purchases-for-laravel
