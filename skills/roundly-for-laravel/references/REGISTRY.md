@@ -7,7 +7,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
 - Updated: 2026-11-07
-- Packages: 55
+- Packages: 56
 - Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -169,6 +169,13 @@ Attaches files to Eloquent models in named buckets or as global media on any dis
 - install: `composer require roundly-consulting/messages-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/messages-for-laravel
 - repo: https://github.com/roundly-consulting/messages-for-laravel
+
+### notifications-for-laravel
+Typed notifications with an in-app inbox (collapsing, contexts, read/archive), per-user channel preferences, mandatory types, email de-dup, quiet hours, digests and date-relative reminders.
+- tags: `notifications` `inbox` `notification-preferences` `digest` `reminders` `quiet-hours` `email`
+- install: `composer require roundly-consulting/notifications-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/notifications-for-laravel
+- repo: https://github.com/roundly-consulting/notifications-for-laravel
 
 ### posts-for-laravel
 Multilingual blog posts with draft/scheduled/published/archived lifecycle, nested categories, tags, SEO meta and schema.org, polymorphic authors, images, likes, reports and per-locale slugs.
