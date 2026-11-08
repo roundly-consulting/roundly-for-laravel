@@ -6,8 +6,8 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 **Full documentation for every package is on our website:**
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
-- Updated: 2026-11-07
-- Packages: 56
+- Updated: 2026-11-08
+- Packages: 57
 - Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -276,6 +276,13 @@ Headless helpdesk: gap-free ticket references, swappable statuses, replies and i
 - install: `composer require roundly-consulting/tickets-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/tickets-for-laravel
 - repo: https://github.com/roundly-consulting/tickets-for-laravel
+
+### workflows-for-laravel
+Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, conditions, approvals, durable waits, business-time escalations, retries, dry-runs and file sync.
+- tags: `workflows` `workflow-engine` `automation` `approval-workflow` `escalation` `business-hours` `durable-execution`
+- install: `composer require roundly-consulting/workflows-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/workflows-for-laravel
+- repo: https://github.com/roundly-consulting/workflows-for-laravel
 
 ## Data, modeling & analytics
 
