@@ -417,7 +417,7 @@ Plausible Analytics API client: fluent stats queries, server-side event and page
 ## Package development
 
 ### package-toolkit-for-laravel
-Package-authoring building blocks: service-provider bootstrap builder, bigint/uuid/ulid schema macros, LIKE escaping, secret-safe validated config readers, facade secret redaction, model resolver.
+Package-authoring building blocks: provider bootstrap builder, bigint/uuid/ulid schema macros and model keys, UTC timestamps, LIKE escaping, validated config readers, secret redaction, model resolver.
 - tags: `package-development` `service-provider` `package-bootstrap` `schema-macros` `uuid` `ulid` `config-validation` `secret-redaction`
 - install: `composer require roundly-consulting/package-toolkit-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/package-toolkit-for-laravel
