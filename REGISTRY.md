@@ -301,7 +301,7 @@ Turns any Eloquent query into dashboard metrics: single values with period-over-
 - repo: https://github.com/roundly-consulting/metrics-for-laravel
 
 ### opening-hours-for-laravel
-Weekly, seasonal and holiday/exception opening hours on any Eloquent model with DST-correct isOpenAt/nextOpen queries, schema.org output, and bookable time slots with capacity and buffers.
+Weekly, seasonal and holiday opening hours on any Eloquent model: DST-correct isOpenAt/nextOpen, business-day and business-hour deadlines, schema.org output, and bookable slots with capacity.
 - tags: `opening-hours` `business-hours` `schedules` `holidays` `availability` `booking-slots` `timezone` `store-hours`
 - install: `composer require roundly-consulting/opening-hours-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/opening-hours-for-laravel
