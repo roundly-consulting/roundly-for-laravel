@@ -7,7 +7,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
 - Updated: 2026-11-08
-- Packages: 58
+- Packages: 59
 - Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -67,6 +67,13 @@ Opaque rotating refresh tokens and device sessions for any authenticatable model
 - install: `composer require roundly-consulting/refresh-tokens-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/refresh-tokens-for-laravel
 - repo: https://github.com/roundly-consulting/refresh-tokens-for-laravel
+
+### safe-fetch-for-laravel
+SSRF protection for Laravel's HTTP client: `Http::safe()` DNS-pins every hop and blocks private, loopback and cloud-metadata addresses; capped `fetch()`/`download()` and a `safe_url` rule.
+- tags: `ssrf` `security` `http-client` `url-validation` `dns-pinning` `private-network` `outbound-requests`
+- install: `composer require roundly-consulting/safe-fetch-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/safe-fetch-for-laravel
+- repo: https://github.com/roundly-consulting/safe-fetch-for-laravel
 
 ### sentinel-for-laravel
 Tamper-evident Eloquent seals, an anchored append-only ledger, HMAC sign/verify of raw messages with rotating key rings or your own secrets, idempotency keys, single-use nonces and URLs, and RFC 9421 HTTP signatures.
