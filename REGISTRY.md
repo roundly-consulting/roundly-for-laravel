@@ -7,7 +7,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
 - Updated: 2026-11-08
-- Packages: 59
+- Packages: 60
 - Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -434,6 +434,13 @@ Plausible Analytics API client: fluent stats queries, server-side event and page
 - install: `composer require roundly-consulting/plausible-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/plausible-for-laravel
 - repo: https://github.com/roundly-consulting/plausible-for-laravel
+
+### webhooks-for-laravel
+Receive and send signed webhooks (Standard Webhooks, RFC 9421, custom schemes): replay-safe queued handlers, retries with backoff, per-endpoint throttle, SSRF guard, secret rotation, delivery log.
+- tags: `webhooks` `webhook-signature` `standard-webhooks` `hmac` `rfc9421` `ssrf` `retries` `delivery-log`
+- install: `composer require roundly-consulting/webhooks-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/webhooks-for-laravel
+- repo: https://github.com/roundly-consulting/webhooks-for-laravel
 
 ## Package development
 
