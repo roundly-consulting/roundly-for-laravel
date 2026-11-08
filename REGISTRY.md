@@ -7,7 +7,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
 - Updated: 2026-11-08
-- Packages: 57
+- Packages: 58
 - Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
 
@@ -299,6 +299,13 @@ Helpers trait for PHP enums: translation-file labels, colour presentation, names
 - install: `composer require roundly-consulting/enums-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/enums-for-laravel
 - repo: https://github.com/roundly-consulting/enums-for-laravel
+
+### imports-for-laravel
+CSV and XLSX imports into Eloquent models: templates with dropdowns, saved column mappings, validated preview, duplicate handling, background batches with undo, ZIP file batches and a JSON API.
+- tags: `import` `csv` `xlsx` `excel` `spreadsheet` `bulk-upload` `column-mapping` `data-import`
+- install: `composer require roundly-consulting/imports-for-laravel`
+- docs: https://roundly-consulting.com/open-source/docs/imports-for-laravel
+- repo: https://github.com/roundly-consulting/imports-for-laravel
 
 ### metrics-for-laravel
 Turns any Eloquent query into dashboard metrics: single values with period-over-period change, trend time series, progress against a target, and partition breakdowns, with caching and formatting.
