@@ -69,7 +69,7 @@ Opaque rotating refresh tokens and device sessions for any authenticatable model
 - repo: https://github.com/roundly-consulting/refresh-tokens-for-laravel
 
 ### sentinel-for-laravel
-Tamper-evident Eloquent seals, an anchored append-only ledger, rotating key rings with HMAC sign/verify of raw messages, idempotency keys, single-use nonces and URLs, and RFC 9421 HTTP signatures.
+Tamper-evident Eloquent seals, an anchored append-only ledger, HMAC sign/verify of raw messages with rotating key rings or your own secrets, idempotency keys, single-use nonces and URLs, and RFC 9421 HTTP signatures.
 - tags: `integrity` `tamper-detection` `audit` `idempotency` `nonce` `replay-protection` `http-signatures` `hmac`
 - install: `composer require roundly-consulting/sentinel-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/sentinel-for-laravel
