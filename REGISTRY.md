@@ -424,8 +424,8 @@ Package-authoring building blocks: service-provider bootstrap builder, bigint/uu
 - repo: https://github.com/roundly-consulting/package-toolkit-for-laravel
 
 ### testing-for-laravel
-Pest test machinery for Laravel packages and apps: Testbench base test case, migration-order pin, config/facade/model-swap contract expectations, driver matrix and architecture presets.
-- tags: `testing` `pest` `testbench` `package-testing` `architecture-tests` `test-helpers`
+Pest test machinery for Laravel packages and apps: Testbench base case, publish sandbox, migration-order pin, config/facade/model-swap/no-class-name expectations, real-engine racer and arch presets.
+- tags: `testing` `pest` `testbench` `package-testing` `architecture-tests` `test-helpers` `race-conditions`
 - install: `composer require --dev roundly-consulting/testing-for-laravel --with-all-dependencies`
 - docs: https://roundly-consulting.com/open-source/docs/testing-for-laravel
 - repo: https://github.com/roundly-consulting/testing-for-laravel
