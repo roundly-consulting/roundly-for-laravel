@@ -285,8 +285,8 @@ Headless helpdesk: gap-free ticket references, swappable statuses, replies and i
 - repo: https://github.com/roundly-consulting/tickets-for-laravel
 
 ### workflows-for-laravel
-Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, conditions, approvals, durable waits, business-time escalations, retries, dry-runs and file sync.
-- tags: `workflows` `workflow-engine` `automation` `approval-workflow` `escalation` `business-hours` `durable-execution`
+Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, signed webhooks, conditions, approvals, durable waits, business-time escalations, retries, dry-runs and file sync.
+- tags: `workflows` `workflow-engine` `automation` `approval-workflow` `escalation` `business-hours` `durable-execution` `webhooks`
 - install: `composer require roundly-consulting/workflows-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/workflows-for-laravel
 - repo: https://github.com/roundly-consulting/workflows-for-laravel
