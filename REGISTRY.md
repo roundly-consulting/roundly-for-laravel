@@ -27,8 +27,8 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 ## Authentication & security
 
 ### auth-for-laravel
-Headless multi-guard auth: password, magic-link, email OTP and passkey login, 2FA challenges, JWT access + rotating refresh tokens, device sessions, invitations, email verification, password reset.
-- tags: `authentication` `login` `2fa` `passkeys` `magic-link` `otp` `sessions` `password-reset`
+Headless multi-guard auth: password, magic-link, email OTP and passkey login, 2FA challenges, JWT access + rotating refresh tokens, device sessions, invitations, email verification, password reset, enumeration-safe registration, pre-hijacking protection and a hardened preset.
+- tags: `authentication` `login` `2fa` `passkeys` `magic-link` `otp` `sessions` `password-reset` `account-takeover` `enumeration-safe`
 - install: `composer require roundly-consulting/auth-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/auth-for-laravel
 - repo: https://github.com/roundly-consulting/auth-for-laravel
@@ -69,8 +69,8 @@ Opaque rotating refresh tokens and device sessions for any authenticatable model
 - repo: https://github.com/roundly-consulting/refresh-tokens-for-laravel
 
 ### safe-fetch-for-laravel
-SSRF protection for Laravel's HTTP client: `Http::safe()` DNS-pins every hop and blocks private, loopback and cloud-metadata addresses; capped `fetch()`/`download()` and a `safe_url` rule.
-- tags: `ssrf` `security` `http-client` `url-validation` `dns-pinning` `private-network` `outbound-requests`
+SSRF protection for Laravel's HTTP client and Guzzle clients: `Http::safe()` DNS-pins every hop and blocks private, loopback and cloud-metadata addresses; size/time caps, capped `fetch()`/`download()` and a `safe_url` rule.
+- tags: `ssrf` `security` `http-client` `url-validation` `dns-pinning` `private-network` `outbound-requests` `guzzle`
 - install: `composer require roundly-consulting/safe-fetch-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/safe-fetch-for-laravel
 - repo: https://github.com/roundly-consulting/safe-fetch-for-laravel
@@ -106,8 +106,8 @@ Creates and redeems discount coupons: fixed, capped percentage and free-shipping
 - repo: https://github.com/roundly-consulting/coupons-for-laravel
 
 ### credits-for-laravel
-Ledger-based credit balance on any Eloquent model: grant/deduct, overdraft protection, point-in-time balance, named and currency-denominated buckets, fractional credits and query scopes.
-- tags: `credits` `wallet` `balance` `ledger` `points` `virtual-currency`
+Ledger-based credit balance on any Eloquent model: grant/deduct, holds with capture/release/expiry, scheduled per-period bucket resets, overdraft protection, point-in-time balance, named and currency buckets.
+- tags: `credits` `wallet` `balance` `ledger` `points` `virtual-currency` `holds` `reservations`
 - install: `composer require roundly-consulting/credits-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/credits-for-laravel
 - repo: https://github.com/roundly-consulting/credits-for-laravel
@@ -120,8 +120,8 @@ Immutable arbitrary-precision Money/Currency value objects (ISO 4217 + custom) w
 - repo: https://github.com/roundly-consulting/money-for-laravel
 
 ### purchases-for-laravel
-Apple, Google Play and Stripe purchases and subscriptions: native webhook verification, models, refunds, lifecycle events, plus Stripe billing — customers, per-seat and metered plans, portal.
-- tags: `in-app-purchases` `subscriptions` `payments` `stripe-billing` `app-store` `google-play` `usage-based-billing` `iap`
+Apple, Google Play and Stripe purchases and subscriptions: verified, deduplicated webhooks, models, refunds, lifecycle events, plus Stripe billing — per-seat, metered and mixed-interval plans, card-free trials, portal.
+- tags: `in-app-purchases` `subscriptions` `payments` `stripe-billing` `app-store` `google-play` `usage-based-billing` `iap` `free-trial`
 - install: `composer require roundly-consulting/purchases-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/purchases-for-laravel
 - repo: https://github.com/roundly-consulting/purchases-for-laravel
@@ -143,8 +143,8 @@ Sends one message to many recipients via queued job batches with progress tracki
 - repo: https://github.com/roundly-consulting/campaigns-for-laravel
 
 ### comments-for-laravel
-Polymorphic comments any model can give or receive, with threaded replies, moderation, likes/reactions, reporting with auto-hide, media attachments, @mentions, blocklist filter and thread locking.
-- tags: `comments` `threaded-replies` `discussions` `moderation` `mentions` `user-generated-content`
+Polymorphic comments any model can give or receive, with threaded replies, moderation, likes/reactions, reporting with auto-hide, media attachments, @mentions incl. groups, edit history, deleted-comment placeholders, blocklist filter and thread locking.
+- tags: `comments` `threaded-replies` `discussions` `moderation` `mentions` `user-generated-content` `edit-history`
 - install: `composer require roundly-consulting/comments-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/comments-for-laravel
 - repo: https://github.com/roundly-consulting/comments-for-laravel
@@ -171,15 +171,15 @@ Attaches files to Eloquent models in named buckets or as global media on any dis
 - repo: https://github.com/roundly-consulting/media-library-for-laravel
 
 ### messages-for-laravel
-1:1 and group chat threads between any Eloquent models: messages, replies, file attachments, read receipts, unread counts, inbox, participant roles, notifications, optional realtime broadcast.
+1:1 and group chat threads between any Eloquent models: messages, replies, file attachments, read receipts, unread counts, inbox, participant roles, notifications, optional realtime broadcast with channel authorisation.
 - tags: `messaging` `chat` `direct-messages` `conversations` `inbox` `realtime` `broadcasting` `read-receipts`
 - install: `composer require roundly-consulting/messages-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/messages-for-laravel
 - repo: https://github.com/roundly-consulting/messages-for-laravel
 
 ### notifications-for-laravel
-Typed notifications with an in-app inbox (collapsing, contexts, read/archive), per-user channel preferences, mandatory types, email de-dup, quiet hours, digests and date-relative reminders.
-- tags: `notifications` `inbox` `notification-preferences` `digest` `reminders` `quiet-hours` `email`
+Typed notifications with an in-app inbox (collapsing, contexts, read/archive), per-user channel preferences, mandatory types, email de-dup, quiet hours, digests, date-relative reminders, one-click unsubscribe, suppression list and mail rate limits.
+- tags: `notifications` `inbox` `notification-preferences` `digest` `reminders` `quiet-hours` `email` `unsubscribe` `rate-limit`
 - install: `composer require roundly-consulting/notifications-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/notifications-for-laravel
 - repo: https://github.com/roundly-consulting/notifications-for-laravel
@@ -222,8 +222,8 @@ Schedules appointments with durations, time zones and polymorphic participants; 
 - repo: https://github.com/roundly-consulting/appointments-for-laravel
 
 ### approvals-for-laravel
-Records approve/reject decisions by any actor model on any approvable model, plus multi-approver requests (unanimous, quorum, weighted), staged pipelines, delegation, expiry and workflow presets.
-- tags: `approvals` `sign-off` `approval-workflow` `review` `quorum` `delegation` `moderation`
+Records approve/reject decisions by any actor model on any approvable model, plus multi-approver requests (unanimous, quorum, weighted), staged pipelines, delegation, expiry, self-approval exclusion, version-bound rounds and workflow presets.
+- tags: `approvals` `sign-off` `approval-workflow` `review` `quorum` `delegation` `moderation` `four-eyes`
 - install: `composer require roundly-consulting/approvals-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/approvals-for-laravel
 - repo: https://github.com/roundly-consulting/approvals-for-laravel
@@ -271,8 +271,8 @@ Requests/applications submitted by any model that need sign-off: approver rules 
 - repo: https://github.com/roundly-consulting/requests-for-laravel
 
 ### teams-for-laravel
-Teams for any Eloquent model: memberships with roles and permissions, per-team role overrides, expiring email invitations, join requests, time-boxed memberships, per-team data isolation (current-team context, fail-closed scoped models, queue propagation) and optional nested teams.
-- tags: `teams` `multi-tenancy` `organizations` `invitations` `team-roles` `members` `workspaces` `data-isolation`
+Teams for any Eloquent model: memberships with roles and permissions, per-team role overrides, expiring email invitations, join requests, membership start/end dates, checked team switching, per-team data isolation (current-team context, fail-closed scoped models, queue propagation with membership re-check) and optional nested teams.
+- tags: `teams` `multi-tenancy` `organizations` `invitations` `team-roles` `members` `workspaces` `data-isolation` `scheduled-access`
 - install: `composer require roundly-consulting/teams-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/teams-for-laravel
 - repo: https://github.com/roundly-consulting/teams-for-laravel
@@ -294,8 +294,8 @@ Versioned workflows as JSON graphs or a PHP builder, run step by step on queues:
 ## Data, modeling & analytics
 
 ### attributes-for-laravel
-Attaches typed dynamic key/value attributes to any Eloquent model without schema changes, with a validation registry, per-model schemas, encrypted values, defaults, query scopes and audit history.
-- tags: `custom-fields` `eav` `key-value` `dynamic-attributes` `metadata` `model-properties`
+Attaches typed dynamic key/value attributes to any Eloquent model without schema changes, with a validation registry incl. cross-attribute rules, per-model schemas, encrypted values, defaults, query scopes and audit history with actor.
+- tags: `custom-fields` `eav` `key-value` `dynamic-attributes` `metadata` `model-properties` `validation` `audit-trail`
 - install: `composer require roundly-consulting/attributes-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/attributes-for-laravel
 - repo: https://github.com/roundly-consulting/attributes-for-laravel
