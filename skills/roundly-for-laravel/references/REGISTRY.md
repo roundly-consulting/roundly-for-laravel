@@ -55,8 +55,8 @@ WebAuthn/FIDO2 passkey relying party: registration and authentication ceremonies
 - repo: https://github.com/roundly-consulting/passkeys-for-laravel
 
 ### permissions-for-laravel
-Roles and direct permissions for any authenticatable model: single-guard, cache-backed effective-permission resolution wired into Laravel's Gate and can: middleware.
-- tags: `permissions` `roles` `rbac` `authorization` `acl` `access-control` `gate`
+Roles and direct permissions for any authenticatable model: single-guard, cache-backed effective-permission resolution wired into Laravel's Gate and can: middleware, plus optional per-scope (tenant/team/project), time-boxed and tenant-defined roles.
+- tags: `permissions` `roles` `rbac` `authorization` `acl` `access-control` `gate` `multi-tenant` `scoped-roles`
 - install: `composer require roundly-consulting/permissions-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/permissions-for-laravel
 - repo: https://github.com/roundly-consulting/permissions-for-laravel
