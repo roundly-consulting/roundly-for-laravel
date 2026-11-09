@@ -271,8 +271,8 @@ Requests/applications submitted by any model that need sign-off: approver rules 
 - repo: https://github.com/roundly-consulting/requests-for-laravel
 
 ### teams-for-laravel
-Teams for any Eloquent model: memberships with roles and permissions, per-team role overrides, expiring email invitations, join requests, membership start/end dates, checked team switching, per-team data isolation (current-team context, fail-closed scoped models, queue propagation with membership re-check) and optional nested teams.
-- tags: `teams` `multi-tenancy` `organizations` `invitations` `team-roles` `members` `workspaces` `data-isolation` `scheduled-access`
+Teams for any Eloquent model: memberships with roles and permissions, per-team role overrides, expiring email invitations, join requests, membership start/end dates, checked team switching, per-team data isolation (current-team context, fail-closed scoped models, queue propagation with membership re-check), optional nested teams and scoped time-boxed grants via permissions-for-laravel.
+- tags: `teams` `multi-tenancy` `organizations` `invitations` `team-roles` `members` `workspaces` `data-isolation` `scheduled-access` `team-permissions`
 - install: `composer require roundly-consulting/teams-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/teams-for-laravel
 - repo: https://github.com/roundly-consulting/teams-for-laravel
