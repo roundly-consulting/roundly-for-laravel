@@ -208,7 +208,7 @@ Polymorphic reviews and star ratings (any model reviews any model) with moderati
 ## People, teams & workflows
 
 ### addresses-for-laravel
-Stores multiple typed addresses (billing, shipping, etc.) on any Eloquent model via a polymorphic relation, with one primary per type, country-code normalisation, formatting and query scopes.
+Stores multiple typed addresses (billing, shipping or your own configured types) on any Eloquent model via a polymorphic relation, with one primary per type, owner-checked writes, country-code normalisation, formatting and query scopes.
 - tags: `addresses` `billing-address` `shipping-address` `postal-address` `polymorphic` `country-codes`
 - install: `composer require roundly-consulting/addresses-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/addresses-for-laravel
@@ -294,8 +294,8 @@ Versioned workflows as JSON graphs or a PHP builder, run step by step on queues:
 ## Data, modeling & analytics
 
 ### attributes-for-laravel
-Attaches typed dynamic key/value attributes to any Eloquent model without schema changes, with a validation registry incl. cross-attribute rules, per-model schemas, encrypted values, defaults, query scopes and audit history with actor.
-- tags: `custom-fields` `eav` `key-value` `dynamic-attributes` `metadata` `model-properties` `validation` `audit-trail`
+Attaches typed dynamic key/value attributes to any Eloquent model without schema changes, with a validation registry incl. cross-attribute rules, per-model schemas, encrypted values, defaults, unique values per owner type, per team/tenant or global, query scopes and audit history with actor.
+- tags: `custom-fields` `eav` `key-value` `dynamic-attributes` `metadata` `model-properties` `validation` `audit-trail` `multi-tenant`
 - install: `composer require roundly-consulting/attributes-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/attributes-for-laravel
 - repo: https://github.com/roundly-consulting/attributes-for-laravel
@@ -357,7 +357,7 @@ Slugs for Eloquent models: single or per-locale (json/jsonb) slug columns, scope
 - repo: https://github.com/roundly-consulting/sluggable-for-laravel
 
 ### tags-for-laravel
-Typed tags and category trees on any Eloquent model: single- or multi-select, curated or free-form, tenant-scoped, translatable with per-locale slugs, autocomplete, usage counts and query scopes.
+Typed tags and category trees on any Eloquent model: single- or multi-select, curated or free-form, tenant-scoped, translatable with per-locale slugs, autocomplete, usage counts, query scopes and key-safe UUID/ULID tagging.
 - tags: `tags` `tagging` `taxonomy` `categories` `labels` `category-tree` `multi-tenant` `autocomplete`
 - install: `composer require roundly-consulting/tags-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/tags-for-laravel
