@@ -6,7 +6,7 @@ written for AI coding agents. Read it, pick the packages that fit the app you ar
 **Full documentation for every package is on our website:**
 `https://roundly-consulting.com/open-source/docs/<package>` (linked from each entry). This file is only an index.
 
-- Updated: 2026-11-08
+- Updated: 2026-11-11
 - Packages: 60
 - Requirements (every package): PHP ^8.4, Laravel 13
 - Composer vendor: `roundly-consulting` · source: `https://github.com/roundly-consulting/<package>`
@@ -271,7 +271,7 @@ Requests/applications submitted by any model that need sign-off: approver rules 
 - repo: https://github.com/roundly-consulting/requests-for-laravel
 
 ### teams-for-laravel
-Teams for any Eloquent model: memberships with roles and permissions, per-team role overrides, expiring email invitations, join requests, membership start/end dates, checked team switching, per-team data isolation (current-team context, fail-closed scoped models, queue propagation with membership re-check), optional nested teams and scoped time-boxed grants via permissions-for-laravel.
+Teams for any Eloquent model, keyed by bigint, UUID or ULID: memberships with roles and permissions, per-team role overrides, expiring email invitations, join requests, membership start/end dates, checked team switching, per-team data isolation (current-team context, fail-closed scoped models, queue propagation with membership re-check), optional nested teams and scoped time-boxed grants via permissions-for-laravel.
 - tags: `teams` `multi-tenancy` `organizations` `invitations` `team-roles` `members` `workspaces` `data-isolation` `scheduled-access` `team-permissions`
 - install: `composer require roundly-consulting/teams-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/teams-for-laravel
