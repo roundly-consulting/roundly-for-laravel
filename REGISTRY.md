@@ -136,7 +136,7 @@ E-commerce for one or many shops: products with variants/SKUs, inventory ledger 
 ## Content, messaging & community
 
 ### campaigns-for-laravel
-Sends one message to many recipients via queued job batches with progress tracking, cancel and deferred start; swappable delivery job for email, SMS, push or notifications; optional DB store.
+Sends one message to many recipients — addresses or your app's own models (users, members) — via queued job batches with progress tracking, cancel and deferred start; swappable delivery job for email, SMS, push or notifications; optional DB store.
 - tags: `campaigns` `bulk-email` `newsletter` `mass-messaging` `broadcast` `email-marketing` `sms`
 - install: `composer require roundly-consulting/campaigns-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/campaigns-for-laravel
