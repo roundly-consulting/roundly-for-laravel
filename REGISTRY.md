@@ -106,8 +106,8 @@ Creates and redeems discount coupons: fixed, capped percentage and free-shipping
 - repo: https://github.com/roundly-consulting/coupons-for-laravel
 
 ### credits-for-laravel
-Ledger-based credit balance on any Eloquent model: grant/deduct, holds with capture/release/expiry, scheduled per-period bucket resets, overdraft protection, point-in-time balance, named and currency buckets.
-- tags: `credits` `wallet` `balance` `ledger` `points` `virtual-currency` `holds` `reservations`
+Ledger-based credit balance on any Eloquent model: grant/deduct, holds with capture/release/expiry, nested budgets capped by parent owners, scheduled per-period bucket resets, overdraft protection, point-in-time balance, named and currency buckets.
+- tags: `credits` `wallet` `balance` `ledger` `points` `virtual-currency` `holds` `reservations` `budgets`
 - install: `composer require roundly-consulting/credits-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/credits-for-laravel
 - repo: https://github.com/roundly-consulting/credits-for-laravel
