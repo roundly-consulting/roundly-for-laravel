@@ -178,7 +178,7 @@ Attaches files to Eloquent models in named buckets or as global media on any dis
 - repo: https://github.com/roundly-consulting/messages-for-laravel
 
 ### notifications-for-laravel
-Typed notifications with an in-app inbox (collapsing, contexts, read/archive), per-user channel preferences, mandatory types, email de-dup, quiet hours, digests, date-relative reminders, one-click unsubscribe, suppression list and mail rate limits.
+Typed notifications with an in-app inbox (collapsing, contexts, read/archive), per-user channel preferences, mandatory types, email de-dup, quiet hours, digests, date-relative and repeat-until-acknowledged reminders, one-click unsubscribe, suppression list and mail rate limits.
 - tags: `notifications` `inbox` `notification-preferences` `digest` `reminders` `quiet-hours` `email` `unsubscribe` `rate-limit`
 - install: `composer require roundly-consulting/notifications-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/notifications-for-laravel
