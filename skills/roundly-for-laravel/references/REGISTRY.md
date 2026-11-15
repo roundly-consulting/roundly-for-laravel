@@ -157,7 +157,7 @@ Stores multi-step form definitions (forms, groups, fields) in the database, vali
 - repo: https://github.com/roundly-consulting/forms-for-laravel
 
 ### likes-for-laravel
-Polymorphic likes and typed reactions any model can give or receive, with toggle, counts, popularity/trending scopes, N+1-free feed hydration, reaction breakdowns, broadcasting and API resources.
+Polymorphic likes and typed reactions any model can give or receive, with toggle, counts, popularity/trending scopes, N+1-free feed hydration, reaction breakdowns, broadcasting, API resources and bigint/ULID/UUID keys.
 - tags: `likes` `reactions` `upvotes` `favorites` `trending` `engagement` `social`
 - install: `composer require roundly-consulting/likes-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/likes-for-laravel
@@ -285,7 +285,7 @@ Headless helpdesk: gap-free ticket references, swappable statuses, replies and i
 - repo: https://github.com/roundly-consulting/tickets-for-laravel
 
 ### workflows-for-laravel
-Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, signed webhooks, conditions, approvals, durable waits, business-time escalations, retries, dry-runs and file sync.
+Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, signed webhooks, conditions, approvals, durable waits, business-time escalations, retries, dry-runs, file sync, per-owner fields, owner pauses and owner exports.
 - tags: `workflows` `workflow-engine` `automation` `approval-workflow` `escalation` `business-hours` `durable-execution` `webhooks`
 - install: `composer require roundly-consulting/workflows-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/workflows-for-laravel
