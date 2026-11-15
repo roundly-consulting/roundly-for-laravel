@@ -69,7 +69,7 @@ Opaque rotating refresh tokens and device sessions for any authenticatable model
 - repo: https://github.com/roundly-consulting/refresh-tokens-for-laravel
 
 ### safe-fetch-for-laravel
-SSRF protection for Laravel's HTTP client and Guzzle clients: `Http::safe()` DNS-pins every hop and blocks private, loopback and cloud-metadata addresses; size/time caps, capped `fetch()`/`download()` and a `safe_url` rule.
+SSRF protection for Laravel's HTTP client and Guzzle clients: `Http::safe()` DNS-pins every hop and blocks private, loopback and cloud-metadata addresses; size/time caps, streamed responses (SSE, LLM token streams) under the same guards, capped `fetch()`/`download()` and a `safe_url` rule.
 - tags: `ssrf` `security` `http-client` `url-validation` `dns-pinning` `private-network` `outbound-requests` `guzzle`
 - install: `composer require roundly-consulting/safe-fetch-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/safe-fetch-for-laravel
