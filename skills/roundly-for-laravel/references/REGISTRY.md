@@ -41,7 +41,7 @@ Crypto primitives: JWS/JOSE signing (HS/RS/ES/EdDSA), JWK thumbprints, X.509/DER
 - repo: https://github.com/roundly-consulting/crypto-for-laravel
 
 ### jwt-for-laravel
-Issues and verifies RS256 user tokens and HS256 service tokens, with auth guard drivers, a jti denylist for logout, claim-based authorization, JWKS publishing and a key-generation command.
+Issues and verifies RS256 user tokens and HS256 service tokens, with auth guard drivers, a jti denylist for logout and revocation, short-lived service tokens with a subject, claim-based authorization, JWKS publishing and a key-generation command.
 - tags: `jwt` `json-web-token` `bearer-token` `api-auth` `auth-guard` `service-tokens` `jwks`
 - install: `composer require roundly-consulting/jwt-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/jwt-for-laravel
@@ -106,7 +106,7 @@ Creates and redeems discount coupons: fixed, capped percentage and free-shipping
 - repo: https://github.com/roundly-consulting/coupons-for-laravel
 
 ### credits-for-laravel
-Ledger-based credit balance on any Eloquent model: grant/deduct, holds with capture/release/expiry, nested budgets capped by parent owners, scheduled per-period bucket resets, overdraft protection, point-in-time balance, named and currency buckets.
+Ledger-based credit balance on any Eloquent model: grant/deduct, holds with capture/release/expiry, nested budgets capped by parent owners and extra ceilings, scheduled per-period bucket resets, overdraft protection, point-in-time balance, named and currency buckets.
 - tags: `credits` `wallet` `balance` `ledger` `points` `virtual-currency` `holds` `reservations` `budgets`
 - install: `composer require roundly-consulting/credits-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/credits-for-laravel
@@ -171,7 +171,7 @@ Attaches files to Eloquent models in named buckets or as global media on any dis
 - repo: https://github.com/roundly-consulting/media-library-for-laravel
 
 ### messages-for-laravel
-1:1 and group chat threads between any Eloquent models: messages, replies, file attachments, read receipts, unread counts, inbox, participant roles, notifications, optional realtime broadcast with channel authorisation.
+1:1 and group chat threads between any Eloquent models: messages, replies, file attachments, read receipts, unread counts, inbox, participant roles, notifications, optional realtime broadcast with channel authorisation, and per-tenant thread contexts.
 - tags: `messaging` `chat` `direct-messages` `conversations` `inbox` `realtime` `broadcasting` `read-receipts`
 - install: `composer require roundly-consulting/messages-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/messages-for-laravel
@@ -222,7 +222,7 @@ Schedules appointments with durations, time zones and polymorphic participants; 
 - repo: https://github.com/roundly-consulting/appointments-for-laravel
 
 ### approvals-for-laravel
-Records approve/reject decisions by any actor model on any approvable model, plus multi-approver requests (unanimous, quorum, weighted), staged pipelines, delegation, expiry, self-approval exclusion, version-bound rounds and workflow presets.
+Records approve/reject decisions by any actor model on any approvable model, plus multi-approver requests (unanimous, quorum, weighted), staged pipelines, delegation, expiry, self-approval exclusion, version-bound rounds, workflow presets and single-use payload-bound confirmations.
 - tags: `approvals` `sign-off` `approval-workflow` `review` `quorum` `delegation` `moderation` `four-eyes`
 - install: `composer require roundly-consulting/approvals-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/approvals-for-laravel
@@ -285,7 +285,7 @@ Headless helpdesk: gap-free ticket references, swappable statuses, replies and i
 - repo: https://github.com/roundly-consulting/tickets-for-laravel
 
 ### workflows-for-laravel
-Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, signed webhooks, conditions, approvals, durable waits, business-time escalations, retries, dry-runs, file sync, per-owner fields, owner pauses and owner exports.
+Versioned workflows as JSON graphs or a PHP builder, run step by step on queues: triggers, signed webhooks, conditions, approvals, durable waits, business-time escalations, retries, dry-runs, file sync, per-owner fields, owner pauses, owner exports and failure details.
 - tags: `workflows` `workflow-engine` `automation` `approval-workflow` `escalation` `business-hours` `durable-execution` `webhooks`
 - install: `composer require roundly-consulting/workflows-for-laravel`
 - docs: https://roundly-consulting.com/open-source/docs/workflows-for-laravel
